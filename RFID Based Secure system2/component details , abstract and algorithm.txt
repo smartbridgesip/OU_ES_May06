@@ -1,0 +1,26 @@
+		COMPONENT DETAILS
+ESP32  
+ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth. The ESP32 series employs a Tensilica Xtensa LX6 microprocessor in both dual-core and single-core variations and includes in-built antenna switches, RF balun, power amplifier, low-noise receive amplifier, filters, and power-management modules.
+
+RFID READER
+A radio frequency identification reader (RFID reader) is a device used to gather information from an RFID tag, which is used to track individual objects. Radio waves are used to transfer data from the tag to a reader.
+RFID is a technology similar in theory to bar codes. However, the RFID tag does not have to be scanned directly, nor does it require line-of-sight to a reader. The RFID tag it must be within the range of an RFID reader, which ranges from 3 to 300 feet, in order to be read. RFID technology allows several items to be quickly scanned and enables fast identification of a particular product, even when it is surrounded by several other items.
+RFID tags have not replaced bar codes because of their cost and the need to individually identify every item.
+
+
+SERVO MOTOR
+A servo motor is a closed-loop system that uses position feedback to control its motion and final position. In industrial type servo motors the position feedback sensor is usually a high precision encoder, while in the smaller RC or hobby servos the position sensor is usually a simple potentiometer.
+
+
+                                                      
+                                                 ALGORITHM 
+
+Step1: Include required libraries for WIFI , servo motor and ThingSpeak.
+Step2: declare the global declarations and functions required.
+Step3:In void setup() , write all the setup codes for the interfaced devices.
+Step4: In void loop() , include the codes for the peripherals to run
+Step5: Verify and upload the code.
+Step6: verify output in serial monitor.
+
+                                                     ABSTRACT
+A radio-frequency identification (RFID) based access-control system allows only authorised people to enter a particular area of an establishment. Authorised people are provided with unique tags, using which they can access that area. This RFID based security system can be built on the micro controller ESP32 and comprises a RFID module, a Servo motor for authorizing access for entry , LED and buzzer to indicate unauthorized detection of the RFID card.

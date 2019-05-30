@@ -1,0 +1,15 @@
+PIN CONFIGURATION 
+
+RST = D5
+SS = D4
+MOSI = D23
+MISO = D19
+SCK = D18
+VCC = 3VC pin
+GND = GND pin
+
+on board LED = D2
+Servo Motor Signal = D13
+Buzzer Signal = D14
+VCC = Vin pin
+GND = GND pin
